@@ -1,0 +1,149 @@
+
+html, body { 
+width: 100%; overflow-x: hidden;
+}
+
+body {font-family: 'Lato', sans-serif, trebuchet ms, arial, sans-serif;
+}
+
+.header {background: /*url('../imges/boston.jpg') no-repeat;*/ black;
+background-size: cover;
+height: 700px;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.menu {
+	margin-top: -110px;
+	margin-right: -120px;
+flex-wrap: wrap;
+}
+
+.menu__item {
+	margin: 0 30px;
+    
+
+}
+
+.menu__item a {
+	font-size: 20px;
+	font-weight: 700;
+	color: white; 
+
+}
+.offer{
+margin-top: 300px;
+padding-bottom: 30px;
+}
+.offer__title{
+	font-size: 45px;
+	color: white;
+	font-weight: bold;
+}
+.form__btn{
+	background-color: #00B6AE;
+	border: none;
+	font-size: 1.1em;
+    padding: 0.6em 2em;
+    margin: 1em 0;
+    display: inline-block;
+    border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    -o-border-radius: 0.2em;
+    -ms-border-radius: 0.2em;
+}
+a.item__link {color: white;}
+
+.title__main {
+	font-size: 40px;
+font-weight: bold;
+color:#333333;
+padding-top:130px; }
+hr.one {    height: 5px;
+    width: 7%;
+    background: #00948B;
+    display: block;
+ }
+ .slider__c {
+ 	background: #2E3041;
+    padding: 6em 0;
+    margin-top: 200px;
+ }
+p.ts__first
+{color: #FFF;
+    font-size: 2em;
+    font-family: 'nexa_boldregular';
+    width: 90%;
+    margin: 0 auto;}
+
+.project {padding-top: 60px;}
+.icon__like:before {
+    content: '\2764';
+    color: pink;   
+}
+.icon__like {
+    font-weight: bold;
+    opacity: 0,5;
+}
+.icon__share:before {
+content: '\27A6';
+color: black;       
+}
+.icon__share {
+    font-weight: bold;
+    opacity: 0,5;
+    padding-left: 10px;
+}
+.title__tsay {color: white;
+font-weight: bold;}
+hr.two {
+    height: 5px;
+    width: 7%;
+    background: white;
+    display: block;
+}
+.title__ways {padding-top: 50px;
+    font-size: 40px;
+font-weight: bold;
+color:#333333;
+}
+input {background: #BFCADC;
+    font-size: 16px;
+border-radius: 5px;
+width: 580px;
+padding: 15px 0;
+margin-right:2px;
+    margin-bottom: 1em;
+border:0; 
+padding-left: 23px;
+color: black;
+width: 100%}
+
+.list {
+    padding-right: 5px;
+  
+}
+.contact-map iframe {
+    width: 100%;
+    min-height: 350px;
+    border: none;
+    outline: none;
+    position: relative;
+}
+.footer {background-color:black;
+background-size: cover;
+height: 150px;
+ }
+ .footer__text {padding-top: 50px;
+    color: white;}
+.ts__second {color: white;
+font-size: 20px;
+}
+.ts__smsec {color: white;}
+
+@media screen and (max-width: 768px) {
+	
+}
